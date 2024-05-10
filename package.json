@@ -1,0 +1,19 @@
+{
+  "name": "superlist-windows",
+  "productName": "Superlist Windows",
+  "description": "Superlist application for Windows",
+  "keywords": [],
+  "main": "./main.js",
+  "version": "1.0.0",
+  "author": "Aaron Long",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . Superlist --platform=win32 --arch=x64 --icon=assets/logo.ico --out=build"
+  },
+  "devDependencies": {
+    "electron": "30.0.2"
+  },
+  "dependencies": {
+    "@electron/packager": "^18.3.2"
+  }
+}
