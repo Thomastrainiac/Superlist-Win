@@ -9,7 +9,10 @@ module.exports = {
   makers: [
     {
       name: '@electron-forge/maker-squirrel',
-      config: {},
+      config: {
+        name: 'SuperlistWindows',
+        setupIcon: './assets/logo.ico'
+      },
     },
     {
       name: '@electron-forge/maker-zip',
